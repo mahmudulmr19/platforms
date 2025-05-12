@@ -1,6 +1,6 @@
-import { Redis } from '@upstash/redis';
+import { Redis } from "@upstash/redis";
 
 export const redis = new Redis({
-  url: process.env.KV_REST_API_URL,
-  token: process.env.KV_REST_API_TOKEN
+  url: "https://measured-foxhound-20042.upstash.io",
+  token: "AU5KAAIjcDFkODBmYTMwODYyZjg0MGE5OTE1ODk0MTRlYTNlNmEwNXAxMA",
 });
